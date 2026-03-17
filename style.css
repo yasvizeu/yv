@@ -81,3 +81,56 @@ h1 { margin: 10px 0 5px; font-weight: 700; }
 }
 
 .footer-brand { margin-top: 30px; font-size: 0.65rem; opacity: 0.5; letter-spacing: 2px; }
+
+/* Estilos específicos da página de Método */
+.method-page {
+    text-align: left;
+    max-width: 450px;
+}
+
+.back-link {
+    color: var(--primary-orange);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.method-content {
+    margin: 30px 0;
+}
+
+.pillar {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 2px solid var(--neon-purple);
+}
+
+.pillar h3 {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: var(--primary-orange);
+}
+
+.pillar p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.cta-area {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+}
+
+.cta-area p {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
